@@ -10,7 +10,7 @@
   
   .content {
     text-align: center;
-    color: white;
+    color: #F3F0E2;
   }
   
   .buttons button {
@@ -21,7 +21,17 @@
     cursor: pointer;
   }
   
-  .buttons button:hover {
+.buttons button:hover {
     background-color: rgba(255, 255, 255, 0.8);
   }
+h1{
+    font-size: 5rem; 
+    color: #F3F0E2;
+    margin-bottom: 20px;
+}
   
+p{
+    font-size: 1.5rem; 
+    color: #F3F0E2;
+    margin-bottom: 30px;
+}

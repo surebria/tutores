@@ -3,9 +3,8 @@
         <h1>CONECTA TUTOR</h1>
         <p>Conecta con tutores y lleva tu aprendizaje al siguiente nivel.</p>
         <div class="buttons">
-            <button routerLink='/login'>Empezar</button>
-            <button routerLink='/registro'>Registro</button>
-
+            <button [routerLink]="['/login']" routerLinkActive="router-link-active">Empezar</button>
+            <button [routerLink]="['/registro']" routerLinkActive="router-link-active">Registro</button>
         </div>
     </div>
 </div>
